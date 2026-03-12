@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>صور</title>
+<script>
+function check(){
+var p=prompt("ادخل كلمة السر");
+if(p=="1234"){
+document.getElementById("c").style.display="block";
+}else{
+alert("خطأ");
+location.reload();
+}
+}
+</script>
+</head>
+<body onload="check()" style="text-align:center">
+
+<div id="c" style="display:none">
+<h2>الصورة</h2>
+<img src="photo.jpg" width="300">
+</div>
+
+</body>
+</html>
